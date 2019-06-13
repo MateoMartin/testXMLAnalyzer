@@ -1,0 +1,9 @@
+{
+  "name": "test-xml-analyzer",
+  "version": "1.0.0",
+  "dependencies": {
+    "jsdom": "^11.6.2",
+    "minimist": "^1.2.0",
+    "similarity": "^1.1.1"
+  }
+}
