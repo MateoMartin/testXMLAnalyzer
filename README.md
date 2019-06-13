@@ -20,14 +20,14 @@ To run the tool you have to execute:
 ## Samples Examples
 Examples with input/output of samples:
 
-1_  Input: `node analyzer.js samples/sample-0-origin.html samples/sample-1-evil-gemini.html`
+1_  Input: `node analyzer.js samples/sample-0-origin.html samples/sample-1-evil-gemini.html`  
 Output: `html > body > div > div > div[2] > div[0] > div > div[1] > a[1]`
 
-2_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-2-container-and-clone.html`
+2_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-2-container-and-clone.html`  
 Output: `html > body > div > div > div[2] > div[0] > div > div[1] > div > a`
 
-3_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-3-the-escape.html`
+3_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-3-the-escape.html`  
 Output: `html > body > div > div > div[2] > div[0] > div > div[2] > a`
 
-4_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-4-the-mash.html`
+4_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-4-the-mash.html`  
 Output: `html > body > div > div > div[2] > div[0] > div > div[2] > a
