@@ -30,4 +30,4 @@ Output: `html > body > div > div > div[2] > div[0] > div > div[1] > div > a`
 Output: `html > body > div > div > div[2] > div[0] > div > div[2] > a`
 
 4_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-4-the-mash.html`  
-Output: `html > body > div > div > div[2] > div[0] > div > div[2] > a
+Output: `html > body > div > div > div[2] > div[0] > div > div[2] > a`
