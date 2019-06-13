@@ -65,7 +65,7 @@ if (args._.length < 2) {
 try {
   const originalFile = fs.readFileSync(args._[0]);
   const diffFile = fs.readFileSync(args._[1]);
-  const targetElementId = args._[2] ? args._[2] : "sendMessageButton";
+  const targetElementId = args._[2] ? args._[2] : "make-everything-ok-button";
   similarElementsOrdered = getSimilarElementsById(
     originalFile,
     diffFile,
