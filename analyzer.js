@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { JSDOM } = require("jsdom");
 const args = require("minimist")(process.argv.slice(2));
-var similarity = require("similarity");
+const similarity = require("similarity");
 
 const getXPathName = element => {
   const children = element.parentElement
