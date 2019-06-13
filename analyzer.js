@@ -73,5 +73,5 @@ try {
   );
   console.log(getPathTo(similarElementsOrdered[0].element));
 } catch (err) {
-  console.log("Error trying to find element by id", err);
+  console.log("Error trying to find element by id, Error:", err);
 }
