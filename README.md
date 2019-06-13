@@ -16,3 +16,18 @@ To run the tool you have to execute:
 -   <input_origin_file_path> - origin sample path to find the element with attribute id="make-everything-ok-button" and collect all the required information;
 -   <input_other_sample_file_path" - path to diff-case HTML file to search a similar element;
 -	"id"  is a optional attribute and it will default to "make-everything-ok-button" if not set.
+
+## Samples Examples
+Examples with input/output of samples:
+
+1_  Input: `node analyzer.js samples/sample-0-origin.html samples/sample-1-evil-gemini.html`
+Output: `html > body > div > div > div[2] > div[0] > div > div[1] > a[1]`
+
+2_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-2-container-and-clone.html`
+Output: `html > body > div > div > div[2] > div[0] > div > div[1] > div > a`
+
+3_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-3-the-escape.html`
+Output: `html > body > div > div > div[2] > div[0] > div > div[2] > a`
+
+4_ Input: `node analyzer.js samples/sample-0-origin.html samples/sample-4-the-mash.html`
+Output: `html > body > div > div > div[2] > div[0] > div > div[2] > a
